@@ -1,0 +1,151 @@
+body {
+	background: #99d4f0;
+}
+
+.paper {
+	background: #F9FBFF;
+	margin: auto;
+	width: 60%;
+	padding: 0;
+	border-style: solid;
+    border-width: 1px;
+	border-color: black;
+}
+
+.entry {
+	background: #5baecf;
+	position: sticky;
+	bottom: 0;
+	font-size: 18pt;
+	margin: auto;
+	width: 60%;
+	padding: 18px;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	cursor: pointer;
+	position: relative;
+	list-style-type: none;
+	font-weight: bold;
+	font-size: 18pt;
+	padding-left: 45px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: #9abdf5;
+	border-style: none;
+	border-top-style: solid;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+
+h1 {
+	text-align: center;
+}
+
+ul li.crossed {
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  text-decoration-color: gray;
+  font-weight: normal;
+  color: gray;
+}
+
+ul li.addTo {
+	background: #e7fabb;
+}
+
+.close {
+  position: absolute;
+  color: black;
+  font-weight: normal;
+  left: 0px;
+  padding-left: 12px;
+  padding-right: 12px;
+  top: 0px;
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  width: 40px;
+  border-color: #9abdf5;
+  border-left-style: none;
+  border-right-color: red;
+}
+
+.add {
+  position: absolute;
+  color: black;
+  font-weight: normal;
+  right: 25px;
+  //top: 0;
+}
+
+.close:hover {
+	//font-size: 16pt;
+	font-weight: bold;
+	background: red;
+	color: white;
+	//left: 5px;
+	//width: 20px;
+	//top: -4px;
+}
+
+.add:hover {
+	font-size: 32pt;
+	color: green;
+	font-weight: bold;
+	right: 18px;
+	//width: 20px;
+	top: -18px;
+}
+
+.showDate {
+	position: absolute;
+	font-weight: normal;
+	right: 100px;
+}
+
+.addBtn {
+	position: absolute;
+	right: 35px;
+	top: 10px;
+	color: white;
+	background: #5d61a8;
+	border-color: #1a239c;
+	border-style: solid;
+	border-width: 2px 3px 3px 2px;
+	padding: 5px 10px 5px 10px;
+}
+
+.Red {
+		color: red;
+}
+
+.Yellow {
+		color: yellow;
+}
+
+.Orange {
+		color: orange;
+}
+
+.Green {
+		color: green;
+}
+
+.Blue {
+		color: blue;
+}
+
+.Purple {
+		color: purple;
+}
+
+.Black {
+		color: black;
+}
